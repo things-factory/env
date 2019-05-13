@@ -1,3 +1,3 @@
 module.exports = {
-  getOrderedModuleNames: require("./lib/dependency-order")
+  orderedModuleNames: require("./lib/dependency-order")
 };
