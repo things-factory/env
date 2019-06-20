@@ -1,6 +1,6 @@
 {
   "name": "@things-factory/env",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "things-factory environment",
   "main": "index.js",
   "repository": "http://github.com/things-factory/env",
@@ -10,6 +10,7 @@
     "app-root-path": "^2.2.1",
     "dependency-solver": "^1.0.6",
     "loader-utils": "^1.2.3",
+    "node-fs-extra": "^0.8.2",
     "schema-utils": "^1.0.0"
   }
 }
