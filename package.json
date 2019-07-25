@@ -1,6 +1,6 @@
 {
   "name": "@things-factory/env",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "things-factory environment",
   "main": "index.js",
   "repository": "http://github.com/things-factory/env",
