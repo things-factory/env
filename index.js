@@ -1,3 +1,4 @@
 module.exports = {
-  orderedModuleNames: require("./lib/dependency-order")
+  orderedModuleNames: require("./lib/dependency-order"),
+  sceneModuleNames: require("./lib/scene-modules")
 };
