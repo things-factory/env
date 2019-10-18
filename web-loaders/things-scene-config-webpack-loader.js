@@ -61,13 +61,13 @@ module.exports = function(content) {
   }
 
   const script =
-    "var metas = [];\n" +
+    "var metas = []\n" +
     Object.keys(sceneModules)
       .map((sceneModule, idx) => {
-        return `import v${idx} from "${sceneModules[sceneModule]}";\nmetas[${idx}] = v${idx};`;
+        return `import v${idx} from "${sceneModules[sceneModule]}"\nmetas[${idx}] = v${idx}`;
       })
-      .join(";\n") +
-    ";\nexport default metas;";
+      .join("\n") +
+    "\nexport default metas\n";
 
   console.log(
     "\n\n############ [ Things Scene Components for Modeller - BEGIN ] ##############\n"
