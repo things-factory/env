@@ -1,5 +1,6 @@
 module.exports = {
   orderedModuleNames: require("./lib/dependency-order"),
   sceneModuleNames: require("./lib/scene-modules"),
-  config: require("./lib/config")
+  config: require("./lib/config"),
+  logger: require("./lib/logger")
 };
