@@ -7,10 +7,11 @@
   "author": "heartyoh@hatiolab.com",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "NODE_ENV=test jest"
   },
   "dependencies": {
     "app-root-path": "^2.2.1",
+    "debug": "^4.1.1",
     "dependency-solver": "^1.0.6",
     "fs-extra": "^8.0.1",
     "loader-utils": "^1.2.3",
